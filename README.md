@@ -1,6 +1,6 @@
 # Carduino
 
-# Arduino Tabanlı 4WD Akıllı Araç
+# Arduino Tabanlı 4WD İnterntten Kontrol Edilebilir Araç
 
 Bu proje, Arduino ve ESP kartlarını kullanarak internet üzerinden haberleşebilen, kamerası olan, 4 motorlu ve 4 tekerlekli bir araç geliştirmeyi amaçlamaktadır.
 
