@@ -11,6 +11,7 @@ Bu proje, Arduino ve ESP kartlarını kullanarak internet üzerinden haberleşeb
   - [Donanım Kurulumu](#donanım-kurulumu)
   - [Yazılım Kurulumu](#yazılım-kurulumu)
 - [Kullanım](#kullanım)
+- [Notlar](#notlar)
 - [Dosya Açıklamaları](#dosya-açıklamaları)
 
 ## Gereksinimler
@@ -39,26 +40,17 @@ ESP8266'yı Arduino Uno'ya bağlayın.
 1. Arduino IDE'yi indirin ve kurun.
 2. [WiFiEspAT kütüphanesini indirin.](https://github.com/JAndrassy/WiFiEspAT)
 3. WifiEspAt kütüphanesini Arduino IDE'ye ekleyin: `Sketch -> Include Library -> Add zip library -> WiFiEspAT` yi yükleyin.
-4. Bu repo'yu klonlayın veya indirin: `git clone https://github.com/devran0/Carduino`
+4. Bu repo'yu klonlayın veya indirin: `git clone https://github.com/devran0`
 
 ## Kullanım
 
-**Donanım Kurulumu**
-
-Bağlantı şemasını şu şekilde yapın:
-
-**Motor Sürücü:**
-
-IN1, IN2, IN3, IN4 pinlerini Arduino dijital pinlerine bağlayın. Motorları motor sürücünün çıkış pinlerine bağlayın.
-
-**ESP8266:**
-
-VCC ve GND pinlerini güç kaynağına, RX ve TX pinlerini uygun Arduino pinlerine bağlayın.
-
-**Kullanım Talimatları:**
-
-- Web tarayıcınızdan `dashboard.php` dosyasına erişin.
-- Kontrol panelinden aracınızı ileri, geri, sağa, sola veya durdurma komutları ile kontrol edin.
+1. Web sayfanıza `index.txt` ve `dashboard.php` dosyalarını atın.
+2. Web tarayıcınızdan `dashboard.php` dosyasına erişin.
+3. Kontrol panelinden aracınızı ileri, geri, sağa, sola veya durdurma komutları ile kontrol edin.
+4. Bu kod sitede bulunan `index.txt` dosyasından veri alır: `client.println("GET /index.txt HTTP/1.1")`.
+   
+**Notlar:**
+- Siteniz HTTP desteklemek zorundadır ve 80. portu açık olmalıdır.
 
 ## Dosya Açıklamaları
 
