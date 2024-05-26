@@ -40,7 +40,7 @@ ESP8266'yı Arduino Uno'ya bağlayın.
 1. Arduino IDE'yi indirin ve kurun.
 2. [WiFiEspAT kütüphanesini indirin.](https://github.com/JAndrassy/WiFiEspAT)
 3. WifiEspAt kütüphanesini Arduino IDE'ye ekleyin: `Sketch -> Include Library -> Add zip library -> WiFiEspAT` yi yükleyin.
-4. Bu repo'yu klonlayın veya indirin: `git clone https://github.com/devran0`
+4. Bu repo'yu klonlayın veya indirin: `git clone https://github.com/devran0/Carduino`
 
 ## Kullanım
 
